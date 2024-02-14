@@ -4,11 +4,12 @@ import App from './App.jsx'
 import BuddiesPendingTable from './components/BuddiesPendingTable.jsx'
 import './index.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import BuddiesMode from './components/BuddiesMode.jsx'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
-    <BuddiesPendingTable />
+    <BuddiesMode />
   </React.StrictMode>,
 )

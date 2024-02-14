@@ -17,8 +17,6 @@ function BuddiesPendingTable() {
         {profileId: 4490, firstName: 'Jeremy', lastName: 'Castro'},
     ]);
     // TODO: API call for above useStates
-    // TODO: look into flexbox
-    // TODO: convert to CSS Bootstrap rather than React-Bootstrap
     return (
         <div>
             <h2>Pending Buddy Requests</h2>
@@ -31,9 +29,6 @@ function BuddiesPendingTable() {
                 ))
             )}
             </div>
-
-            {/* TODO: <h3>Outgoing</h3> */}
-            {/* Same as above but with Outgoing buddy requests */}
             <h3>Outgoing</h3>
             <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'flex-start', gap: 20 +'px' }}>
             {OutgoingPendingBuddiesData.length === 0 ? (

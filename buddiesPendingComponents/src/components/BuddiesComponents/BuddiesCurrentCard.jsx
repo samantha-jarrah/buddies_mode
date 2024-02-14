@@ -3,7 +3,7 @@ import BuddiesUnbuddyButton from './BuddiesUnbuddyButton';
 import BuddiesProfilePic from './BuddiesProfilePic';
 
 // Buddies card component
-function BuddiesCard({buddy}) {
+function BuddiesCurrentCard({buddy}) {
     return (
         // <Card style={{width: '18rem' }}>
         //     {/* TODO: Below is buddies pic or default...probably fix image component using styling from below? */}
@@ -24,4 +24,4 @@ function BuddiesCard({buddy}) {
     )
 };
 
-export default BuddiesCard;
+export default BuddiesCurrentCard;

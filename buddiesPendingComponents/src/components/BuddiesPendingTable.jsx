@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import BuddiesCard from './BuddiesCard';
 import BuddiesCardOutgoingRequest from './BuddiesCardOutgoingRequest';
 import BuddiesCardIncomingRequest from './BuddiesCardIncomingRequest';
 

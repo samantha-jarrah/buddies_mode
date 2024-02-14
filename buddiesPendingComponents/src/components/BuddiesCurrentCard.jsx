@@ -1,6 +1,5 @@
 import React from 'react';
-
-import BuddiesAcceptDeclineButtons from './BuddiesAcceptDeclineButtons';
+import BuddiesUnbuddyButton from './BuddiesUnbuddyButton';
 import BuddiesProfilePic from './BuddiesProfilePic';
 
 // Buddies card component
@@ -19,7 +18,7 @@ function BuddiesCard({buddy}) {
             <BuddiesProfilePic />
             <div className="card-body">
                 <h5 className="card-title">{buddy.firstName} {buddy.lastName}</h5>
-                <BuddiesAcceptDeclineButtons />
+                <BuddiesUnbuddyButton />
             </div>
         </div>
     )

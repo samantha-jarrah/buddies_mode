@@ -32,6 +32,7 @@ function BuddiesCurrentCard({buddy}) {
                     }}/>
             </div>
             {/* Modal */}
+            {showModal &&
             <div className={`modal fade ${showModal ? 'show' : ''}`} id="deleteBuddyModal" tabIndex="-1" aria-labelledby="deleteBuddyModalLabel" style={{ display: showModal ? 'block' : 'none' }}>
                 <div className="modal-dialog">
                     <div className="modal-content">
@@ -49,6 +50,7 @@ function BuddiesCurrentCard({buddy}) {
                     </div>
                 </div>
             </div>
+}
             {showModal && <div className="modal-backdrop fade show"></div>}
         </div>
     )

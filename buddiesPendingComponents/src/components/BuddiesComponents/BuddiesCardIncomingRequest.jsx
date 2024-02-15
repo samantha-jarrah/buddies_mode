@@ -17,7 +17,7 @@ function BuddiesCardIncomingRequest({buddy}) {
         // </Card>
 
         // <div className="card" style={{ width: 18 + 'rem' }}>
-        <div className="card" style={{ width: '20%', marginBottom: '20px' }}>
+        <div className="card" style={{ width: 18 + 'rem' }}>
             <BuddiesProfilePic />
             <div className="card-body">
                 <h5 className="card-title">{buddy.firstName} {buddy.lastName}</h5>

@@ -15,7 +15,7 @@ function BuddiesCurrentTable() {
             <h2>Current Buddies</h2>
             <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'flex-start', gap: 20 +'px' }}>
             {CurrentBuddiesData.length === 0 ? (
-            <p>No Buddies to Display. Try searchiing above!</p>) : (
+            <p>No Buddies to Display. Try searching above!</p>) : (
                 CurrentBuddiesData.map((buddy) => (
                     <BuddiesCurrentCard key={buddy.profileId} buddy={buddy} />
                 ))

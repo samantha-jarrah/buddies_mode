@@ -1,11 +1,12 @@
 import React from 'react';
 
 // Delete buddy
-function BuddiesUnbuddyButtons() {
+function BuddiesUnbuddyButtons({buddy, onDelete}) {
+
     return (
-        <div className="btn-group" role="group" aria-label="Basic mixed styles example">
-            {/* TODO: add onClick actions for buttons */}
-            <button type="button" className="btn btn-danger">Delete Buddy</button>
+        <div>
+            {/* <button type="button" className="btn btn-danger" onClick={handleClick}>Delete Buddy</button> */}
+            <button type="button" className="btn btn-danger" data-bs-toggle="modal" data-bs-target="#deleteBuddyModal" onClick={() => onDelete(buddy)}>Delete Buddy</button>
         </div>
     )
 };

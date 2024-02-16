@@ -2,6 +2,7 @@ import React from "react";
 
 import "./Results.css";
 
+
 export const SearchResults = ({result}) => {
     return (
         <div className="search-result" 
@@ -11,4 +12,4 @@ export const SearchResults = ({result}) => {
     );
 };
 
-export default SearchResults;
+//export default SearchResults;

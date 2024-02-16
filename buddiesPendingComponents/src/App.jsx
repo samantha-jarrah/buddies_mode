@@ -3,9 +3,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { SearchBar } from './components/buddiesModeSearch';
-import { SearchResultsList } from './components/SearchResultsList';
-
+import { SearchBar } from './components/SearchBar/buddiesModeSearch';
+import { SearchResultsList } from './components/SearchBar/SearchResultsList';
 
 
 function App() {

@@ -41,4 +41,4 @@ export const SearchBar = ({setResults}) => {
     );
 };
 
-export default buddiesModeSearch;
+//export default buddiesModeSearch;

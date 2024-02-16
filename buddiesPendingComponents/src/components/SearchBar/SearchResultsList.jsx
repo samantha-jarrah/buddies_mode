@@ -15,4 +15,4 @@ export const SearchResultsList = ({results}) => {
     );
 };
 
-export default SearchResultsList;
+//export default SearchResultsList;
